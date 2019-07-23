@@ -1,0 +1,14 @@
+{
+	"name": "DestinationDataset_zga",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "NewCosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DocumentDbCollection",
+		"typeProperties": {
+			"collectionName": "Iot"
+		}
+	}
+}
