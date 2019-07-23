@@ -1,0 +1,14 @@
+{
+	"name": "FirstDocumentDbCollection1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FirstCosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DocumentDbCollection",
+		"typeProperties": {
+			"collectionName": "Iot"
+		}
+	}
+}
